@@ -12,6 +12,18 @@ Gartner社のマジッククワドラント　2020年SWG(Secure Web Gateway)部�
 
 [ZPA(Zscaler Private Access)](https://www.zscaler.jp/products/zscaler-private-access)・・・Identity Aware Proxy製品であり安全なリモートアクセス機能を提供  
 
+## エージェントソフト(Client Connector)対応端末
+
+| OS | 対応可否 |
+| ------------- | ------------- |
+| Windows  | ○  |
+| Mac  | ○  |
+| iOS  | ○  |
+| Android  | ○  |
+
+詳細はこちらを参照　　
+https://www.zscaler.jp/products/zscaler-client-connector
+
 ## ZIA (Zscaler Internet Access)
 
 主要なキャリアがバックボーンとして採用しているサービスでもあり、インフラ基盤や低遅延通信などはどのSWGよりも強い部分だと感じています。  
