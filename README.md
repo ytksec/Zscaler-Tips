@@ -42,6 +42,18 @@ Zscalerは管理者画面およびユーザ利用にてSAML SSOが利用可能
 エージェントソフト（Client Connector）を一律に配布し、エージェントソフトからユーザログインをする際にidPにリダイレクトされ(ソフト内の画面で)、ログイン後にユーザ独自のプロファイルを配布することが出来るので便利である。  
 **ただし、idP側で利用端末を制限（クライアント証明書やMDM連携によるデバイス認証）しておかないと私用端末などで利用ができてしまうので注意が必要。**
 
+## 内部ネットワークでの利用について
+
+エージェントインストールの端末は基本Zscalerのゲートウェイを利用し、外部ネットワーク（自宅やカフェ等）や内部ネットワーク（企業内）を選ばず出口対策が出来るが、信頼できるネットワーク下ではゲートウェイを通らずに企業内プロキシサーバを利用させることも可能。  
+参考　TrustedNetworkの設定　https://help.zscaler.com/z-app/about-trusted-networks
+
+**ただし、TrustedNetworkをエージェントが判断できるのは、エージェントがクラウド上のZscalerと通信が出来ている必要があるので注意が必要。**
+
+参考　Forwarding Profile https://help.zscaler.com/z-app/configuring-forwarding-profiles-zscaler-app  
+参考　ベストプラクティス　https://help.zscaler.com/z-app/best-practices-zscaler-app-and-vpn-client-interoperability
+
+
+
 ## ZIA (Zscaler Internet Access)
 
 主要なキャリアがバックボーンとして採用しているサービスでもあり、インフラ基盤や低遅延通信などはどのSWGよりも強い部分だと感じています。  
