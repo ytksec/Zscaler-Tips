@@ -24,6 +24,21 @@ Gartner社のマジッククワドラント　2020年SWG(Secure Web Gateway)部�
 詳細はこちらを参照　　
 https://www.zscaler.jp/products/zscaler-client-connector
 
+## SAML対応状況
+
+Zscalerは管理者画面およびユーザ利用にてSAML SSOが利用可能
+
+※2021年2月時点での対応可能idP
++ Active Directoryフェデレーションサービス（AD FS）
++ Azure Active Directory（Azure AD）
++ CAシングルサインオン（CA SSO）
++ グーグルアプリ
++ Okta
++ OneLogin
++ PingFederate
+
+参考ドキュメント  https://help.zscaler.com/zia/configuring-saml
+
 ## ZIA (Zscaler Internet Access)
 
 主要なキャリアがバックボーンとして採用しているサービスでもあり、インフラ基盤や低遅延通信などはどのSWGよりも強い部分だと感じています。  
